@@ -11,9 +11,6 @@ This project is a simple application built with Streamlit and MongoDB Atlas that
    ```bash
    pip install -r requirements.txt
 
-   ```bash
-   python scripts/setup_db.py
-
 4. Start the Streamlit application:
 
    ```bash
@@ -50,8 +47,6 @@ This project is a simple product review application that allows users to submit 
 ## Project Structure
 
 - `streamlit_app.py`: The main Streamlit application file.
-- `scripts/setup_db.py`: A script for setting up the MongoDB collection and initializing with sample data.
-- `data/initial_reviews.json`: Contains sample reviews for initial database setup.
 - `requirements.txt`: Lists required Python packages for the project.
 - `README.md`: This document.
 - `.streamlit/config.toml`: Streamlit configuration file (optional).
@@ -76,8 +71,6 @@ To use MongoDB Atlas, you need to create a cluster, set up a database, and obtai
 ### Setting Up the Database
 
 1. After connecting to your cluster, create a new database.
-2. Create a collection named `reviews`.
-3. You can also use `scripts/setup_db.py` to create the collection and insert initial reviews.
 
 ## Setting Up the Environment
 
